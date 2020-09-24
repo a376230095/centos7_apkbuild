@@ -8,9 +8,9 @@ cat>>/root/.bashrc<<EOF
 export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk
 export ANDROID_SDK_ROOT=/usr/local/android-sdk-linux
 export ANDROID_HOME=/usr/local/android-sdk-linux
-export PATH=$JAVA_HOME/bin:\$PATH
-export PATH=$ANDROID_SDK_ROOT/tools:\$PATH
-export PATH=$ANDROID_SDK_ROOT/platform-tools:\$PATH
+export PATH=\$JAVA_HOME/bin:\$PATH
+export PATH=\$ANDROID_SDK_ROOT/tools:\$PATH
+export PATH=\$ANDROID_SDK_ROOT/platform-tools:\$PATH
 EOF
 
 source /root/.bashrc
