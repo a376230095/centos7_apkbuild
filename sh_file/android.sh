@@ -26,8 +26,7 @@ tar -xvzf android-sdk_r24.4.1-linux.tgz
 chmod -R 777 android-sdk-linux
 fi
 
-cd android-sdk-linux
-cd tools
+cd /usr/local/android-sdk-linux/tools
 
 # 安装sdk的函数
 install()
