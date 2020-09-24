@@ -3,7 +3,7 @@
 # 安装一些软件
 yum install -y unzip
 yum install -y wget
-yum install -y exepct
+yum install -y expect
 yum install -y net-tools
 yum install -y lrzsz
 yun install -y zip
